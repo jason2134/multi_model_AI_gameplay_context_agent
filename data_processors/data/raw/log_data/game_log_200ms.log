@@ -1,0 +1,1106 @@
+1742106188.739869: tty console mode disabled
+1742106188.742656: ioq3 1.36+u20241011.cc18246+dfsg-1/Debian linux-x86_64 Nov  5 2024
+1742106188.742692: SSE instruction set enabled
+1742106188.743087: ----- FS_Startup -----
+1742106188.743214: We are looking in the current search path:
+1742106188.801623: /home/openarena/server.oa/baseoa
+1742106188.801647: /usr/lib/openarena-server/baseoa
+1742106188.801661: /usr/lib/openarena-server/baseoa/z_oacmp-volume1-v3.pk3 (370 files)
+1742106188.801675: /usr/lib/openarena-server/baseoa/pak6-patch088.pk3 (711 files)
+1742106188.801688: /usr/lib/openarena-server/baseoa/pak6-patch085.pk3 (559 files)
+1742106188.801700: /usr/lib/openarena-server/baseoa/pak6-misc.pk3 (229 files)
+1742106188.801713: /usr/lib/openarena-server/baseoa/pak5-TA.pk3 (139 files)
+1742106188.801726: /usr/lib/openarena-server/baseoa/pak4-textures.pk3 (1753 files)
+1742106188.801738: /usr/lib/openarena-server/baseoa/pak2-players.pk3 (669 files)
+1742106188.801750: /usr/lib/openarena-server/baseoa/pak2-players-mature.pk3 (231 files)
+1742106188.801763: /usr/lib/openarena-server/baseoa/pak1-maps.pk3 (100 files)
+1742106188.801775: /usr/lib/openarena-server/baseoa/pak0.pk3 (1042 files)
+1742106188.801967: 
+1742106188.802110: ----------------------
+1742106188.802137: 5803 files in pk3 files
+1742106188.802150: execing default.cfg
+1742106188.802172: execing q3config_server.cfg
+1742106188.802184: couldn't exec autoexec.cfg
+1742106188.802197: com_homepath is write protected.
+1742106188.802209: Hunk_Clear: reset the hunk ok
+1742106188.802221: --- Common Initialization Complete ---
+1742106188.802552: IP: 127.0.0.1
+1742106188.802628: IP: 138.25.62.74
+1742106188.802642: IP6: ::1
+1742106188.802655: IP6: fe80::b9a2:c796:5864:8938%enp1s0
+1742106188.802672: Opening IP socket: 0.0.0.0:27960
+1742106188.802923: execing andrew_server.cfg
+1742106188.979289: ------ Server Initialization ------
+1742106188.979319: Server: kaos2
+1742106188.979335: Hunk_Clear: reset the hunk ok
+1742106188.979348: ----- FS_Startup -----
+1742106188.982113: We are looking in the current search path:
+1742106189.008737: /home/openarena/server.oa/baseoa
+1742106189.008756: /usr/lib/openarena-server/baseoa
+1742106189.008769: /usr/lib/openarena-server/baseoa/z_oacmp-volume1-v3.pk3 (370 files)
+1742106189.008783: /usr/lib/openarena-server/baseoa/pak6-patch088.pk3 (711 files)
+1742106189.008795: /usr/lib/openarena-server/baseoa/pak6-patch085.pk3 (559 files)
+1742106189.008807: /usr/lib/openarena-server/baseoa/pak6-misc.pk3 (229 files)
+1742106189.008819: /usr/lib/openarena-server/baseoa/pak5-TA.pk3 (139 files)
+1742106189.008832: /usr/lib/openarena-server/baseoa/pak4-textures.pk3 (1753 files)
+1742106189.008843: /usr/lib/openarena-server/baseoa/pak2-players.pk3 (669 files)
+1742106189.008856: /usr/lib/openarena-server/baseoa/pak2-players-mature.pk3 (231 files)
+1742106189.008868: /usr/lib/openarena-server/baseoa/pak1-maps.pk3 (100 files)
+1742106189.008880: /usr/lib/openarena-server/baseoa/pak0.pk3 (1042 files)
+1742106189.008892: 
+1742106189.008908: ----------------------
+1742106189.008921: 5803 files in pk3 files
+1742106189.008934: Loading vm file vm/qagame.qvm...
+1742106189.026133: File "vm/qagame.qvm" found in "/usr/lib/openarena-server/baseoa/pak6-patch088.pk3"
+1742106189.030139: ...which has vmMagic VM_MAGIC_VER2
+1742106189.030156: Loading 1658 jump table targets
+1742106189.030175: VM file qagame compiled to 1936982 bytes of code
+1742106189.058305: qagame loaded in 3957632 bytes on the hunk
+1742106189.058429: ------- Game Initialization -------
+1742106189.058447: gamename: baseoa
+1742106189.058461: gamedate: Nov 18 2024
+1742106189.058474: ------------------------------------------------------------
+1742106189.058782: InitGame: \com_protocol\71\g_lms_mode\0\elimination_roundtime\120\g_delagHitscan\0\g_voteMinFraglimit\0\g_voteMaxFraglimit\0\g_voteMinTimelimit\0\g_voteMaxTimelimit\1000\g_voteGametypes\/0/1/3/4/5/6/7/8/9/10/11/12/\g_allowVote\1\g_doWarmup\0\capturelimit\8\videoflags\7\g_maxGameClients\0\sv_maxclients\5\timelimit\200\fraglimit\0\dmflags\0\sv_hostname\NBN-UTS-Fortress OpenArena Server\sv_minRate\0\sv_maxRate\0\sv_dlRate\100\sv_minPing\0\sv_maxPing\0\sv_floodProtect\1\version\ioq3 1.36+u20241011.cc18246+dfsg-1/Debian linux-x86_64 Nov  5 2024\com_gamename\Quake3Arena\g_gametype\0\mapname\kaos2\sv_privateClients\0\sv_allowDownload\0\gamename\baseoa\elimflags\0\voteflags\0\g_needpass\0\g_obeliskRespawnDelay\10\g_enableFS\0\g_enableQ\0\g_enableDust\0\g_enableBreath\0\g_rockets\0\g_instantgib\0\g_altExcellent\0\g_timestamp\2025-03-16 17:23:09
+1742106189.058832: Info: ServerInfo length: 837 of 1024
+1742106189.058847: ^3!readconfig: ^7could not open admin config file admin.dat
+1742106189.058864: Sprees/Kills: loaded 1 killing sprees, 0 death sprees, and 0 multikills.
+1742106189.059121: 0 teams with 0 entities
+1742106189.060822: 24 items registered
+1742106189.060838: -----------------------------------
+1742106189.060851: ------- BotLib Initialization -------
+1742106189.060864: loaded weapons.c
+1742106189.061221: loaded items.c
+1742106189.061981: loaded syn.c
+1742106189.063375: loaded rnd.c
+1742106189.065713: loaded match.c
+1742106189.067930: ------------ Map Loading ------------
+1742106189.067953: trying to load maps/kaos2.aas
+1742106189.068124: loaded maps/kaos2.aas
+1742106189.069830: found 70 level items
+1742106189.070676: -------------------------------------
+1742106189.070693: 33 bots parsed
+1742106189.072806: 71 arenas parsed
+1742106189.079245: File maps/kaos2.info not found
+1742106189.080254: Auther:
+1742106189.080271: Fraglimit: 0
+1742106189.080285: Capturelimit: 0
+1742106189.080298: minTeamSize: 0
+1742106189.080311: Looking for: mapscripts/g_kaos2.cfg
+1742106189.080324: Looking for: mapscripts/g_default.cfg
+1742106189.080342: Looking for: mapscripts/g_kaos2_0.cfg
+1742106189.080354: Looking for: mapscripts/g_default_0.cfg
+1742106189.080367: AAS initialized.
+1742106189.080905: -----------------------------------
+1742106189.081328: sv_maxclients will be changed upon restarting.
+1742106189.081345: broadcast: print "Server: timelimit changed to 5\n"
+1742106189.081526: Client 0 connecting with 50 challenge ping
+1742106226.794757: Full list of players: 172.19.113.65
+1742106232.796101: ClientConnect: 0
+1742106232.796201: broadcast: print "Player_172.19.113.65^7 connected\n"
+1742106232.796253: loaded skill 1 from bots/default_c.c
+1742106232.796278: loaded skill 1 from bots/angelyss_c.c
+1742106232.796301: loaded bots/angelyss_i.c
+1742106232.796324: loaded bots/angelyss_w.c
+1742106232.796345: loaded angelyss from bots/angelyss_t.c
+1742106232.796367: ClientUserinfoChanged: 1 n\Angelyss\t\0\model\angelyss\hmodel\angelyss\c1\4\c2\5\hc\50\w\0\l\0\skill\1.00\tt\0\tl\0\id\
+1742106232.796391: ClientConnect: 1
+1742106232.796413: broadcast: print "Angelyss^7 connected\n"
+1742106232.796434: Info: There has been at least 1 bot now
+1742106232.796456: Playerstore: Failed to restore player. Invalid guid:
+1742106232.796478: broadcast: print "Angelyss^7 entered the game\n"
+1742106232.796499: ClientBegin: 1
+1742106232.796522: broadcast: print "Server: timelimit changed to 2\n"
+1742106232.796543: Item: 1 item_armor_shard
+1742106232.796565: Item: 1 item_armor_shard
+1742106232.796586: Item: 1 item_armor_shard
+1742106232.796607: loaded cached skill 1.000000 from bots/default_c.c
+1742106232.796628: loaded skill 1 from bots/arachna_c.c
+1742106232.796650: loaded bots/arachna_i.c
+1742106232.796671: loaded bots/arachna_w.c
+1742106232.796692: loaded arachna from bots/arachna_t.c
+1742106232.796714: ClientUserinfoChanged: 2 n\Arachna\t\0\model\arachna\hmodel\arachna\c1\4\c2\5\hc\50\w\0\l\0\skill\1.00\tt\0\tl\0\id\
+1742106232.796736: ClientConnect: 2
+1742106232.796760: broadcast: print "Arachna^7 connected\n"
+1742106232.796782: Playerstore: Failed to restore player. Invalid guid:
+1742106232.796803: broadcast: print "Arachna^7 entered the game\n"
+1742106232.796825: ClientBegin: 2
+1742106232.796847: Item: 1 item_armor_shard
+1742106232.796868: Item: 2 ammo_rockets
+1742106232.796889: loaded cached skill 1.000000 from bots/default_c.c
+1742106232.796911: loaded skill 1 from bots/major_c.c
+1742106232.796932: loaded bots/major_i.c
+1742106232.796953: loaded bots/major_w.c
+1742106232.796995: loaded Major from bots/major_t.c
+1742106232.797015: ClientUserinfoChanged: 3 n\Major\t\0\model\major\hmodel\major\c1\4\c2\5\hc\50\w\0\l\0\skill\1.00\tt\0\tl\0\id\
+1742106232.797034: ClientConnect: 3
+1742106232.797051: broadcast: print "Major^7 connected\n"
+1742106232.797069: Playerstore: Failed to restore player. Invalid guid:
+1742106232.797086: broadcast: print "Major^7 entered the game\n"
+1742106232.797103: ClientBegin: 3
+1742106232.797120: Item: 2 weapon_rocketlauncher
+1742106232.797137: Item: 3 weapon_shotgun
+1742106232.797154: loaded cached skill 1.000000 from bots/default_c.c
+1742106232.797172: loaded skill 1 from bots/sarge_c.c
+1742106232.797189: loaded bots/sarge_i.c
+1742106232.797206: loaded bots/sarge_w.c
+1742106232.797223: loaded sarge from bots/sarge_t.c
+1742106232.797240: ClientUserinfoChanged: 4 n\Sarge\t\0\model\sarge\hmodel\sarge\c1\4\c2\5\hc\50\w\0\l\0\skill\1.00\tt\0\tl\0\id\
+1742106232.797257: ClientConnect: 4
+1742106232.797274: broadcast: print "Sarge^7 connected\n"
+1742106232.797291: Playerstore: Failed to restore player. Invalid guid:
+1742106232.797309: broadcast: print "Sarge^7 entered the game\n"
+1742106232.797326: ClientBegin: 4
+1742106232.797343: Item: 1 ammo_cells
+1742106232.797360: Item: 3 item_armor_shard
+1742106232.797377: Item: 3 item_armor_shard
+1742106232.797394: Item: 1 weapon_plasmagun
+1742106232.797475: ==== ShutdownGame ====
+1742106232.802413: ShutdownGame:
+1742106232.802579: ------------------------------------------------------------
+1742106232.802757: AAS shutdown.
+1742106232.802965: ------ Server Initialization ------
+1742106232.803324: Server: kaos2
+1742106232.803348: Hunk_Clear: reset the hunk ok
+1742106232.803366: ----- FS_Startup -----
+1742106232.804930: We are looking in the current search path:
+1742106232.862749: /home/openarena/server.oa/baseoa
+1742106232.862777: /usr/lib/openarena-server/baseoa
+1742106232.862796: /usr/lib/openarena-server/baseoa/z_oacmp-volume1-v3.pk3 (370 files)
+1742106232.862814: /usr/lib/openarena-server/baseoa/pak6-patch088.pk3 (711 files)
+1742106232.862832: /usr/lib/openarena-server/baseoa/pak6-patch085.pk3 (559 files)
+1742106232.862849: /usr/lib/openarena-server/baseoa/pak6-misc.pk3 (229 files)
+1742106232.862866: /usr/lib/openarena-server/baseoa/pak5-TA.pk3 (139 files)
+1742106232.862932: /usr/lib/openarena-server/baseoa/pak4-textures.pk3 (1753 files)
+1742106232.862964: /usr/lib/openarena-server/baseoa/pak2-players.pk3 (669 files)
+1742106232.862983: /usr/lib/openarena-server/baseoa/pak2-players-mature.pk3 (231 files)
+1742106232.863001: /usr/lib/openarena-server/baseoa/pak1-maps.pk3 (100 files)
+1742106232.863019: /usr/lib/openarena-server/baseoa/pak0.pk3 (1042 files)
+1742106232.863037: 
+1742106232.863058: ----------------------
+1742106232.863077: 5803 files in pk3 files
+1742106232.863094: Loading vm file vm/qagame.qvm...
+1742106232.883940: File "vm/qagame.qvm" found in "/usr/lib/openarena-server/baseoa/pak6-patch088.pk3"
+1742106232.887630: ...which has vmMagic VM_MAGIC_VER2
+1742106232.887655: Loading 1658 jump table targets
+1742106232.887682: VM file qagame compiled to 1936982 bytes of code
+1742106232.915761: qagame loaded in 3957632 bytes on the hunk
+1742106232.915907: ------- Game Initialization -------
+1742106232.915926: gamename: baseoa
+1742106232.915944: gamedate: Nov 18 2024
+1742106232.915962: ------------------------------------------------------------
+1742106232.916181: InitGame: \com_protocol\71\g_lms_mode\0\elimination_roundtime\120\g_delagHitscan\0\g_voteMinFraglimit\0\g_voteMaxFraglimit\0\g_voteMinTimelimit\0\g_voteMaxTimelimit\1000\g_voteGametypes\/0/1/3/4/5/6/7/8/9/10/11/12/\g_allowVote\1\g_doWarmup\0\capturelimit\8\videoflags\7\g_maxGameClients\0\sv_maxclients\5\timelimit\200\fraglimit\0\dmflags\0\sv_hostname\NBN-UTS-Fortress OpenArena Server\sv_minRate\0\sv_maxRate\0\sv_dlRate\100\sv_minPing\0\sv_maxPing\0\sv_floodProtect\1\version\ioq3 1.36+u20241011.cc18246+dfsg-1/Debian linux-x86_64 Nov  5 2024\com_gamename\Quake3Arena\g_gametype\0\mapname\kaos2\sv_privateClients\0\sv_allowDownload\0\bot_minplayers\0\gamename\baseoa\elimflags\0\voteflags\767\g_needpass\0\g_obeliskRespawnDelay\10\g_enableFS\0\g_enableQ\0\g_enableDust\0\g_enableBreath\0\g_rockets\0\g_instantgib\0\g_altExcellent\0\g_timestamp\2025-03-16 17:23:52\bot_autominplayers\0
+1742106232.916239: Info: ServerInfo length: 877 of 1024
+1742106232.916259: ^3!readconfig: ^7could not open admin config file admin.dat
+1742106232.916277: Sprees/Kills: loaded 1 killing sprees, 0 death sprees, and 0 multikills.
+1742106232.916467: 0 teams with 0 entities
+1742106232.918166: 24 items registered
+1742106232.918188: -----------------------------------
+1742106232.918206: ------- BotLib Initialization -------
+1742106232.918224: loaded weapons.c
+1742106232.918540: loaded items.c
+1742106232.919352: loaded syn.c
+1742106232.920705: loaded rnd.c
+1742106232.923042: loaded match.c
+1742106232.925226: ------------ Map Loading ------------
+1742106232.925255: trying to load maps/kaos2.aas
+1742106232.925479: loaded maps/kaos2.aas
+1742106232.927142: found 70 level items
+1742106232.927969: -------------------------------------
+1742106232.927991: 33 bots parsed
+1742106232.930094: 71 arenas parsed
+1742106232.936512: File maps/kaos2.info not found
+1742106232.937537: Auther:
+1742106232.937562: Fraglimit: 0
+1742106232.937580: Capturelimit: 0
+1742106232.937597: minTeamSize: 0
+1742106232.937614: Looking for: mapscripts/g_kaos2.cfg
+1742106232.937632: Looking for: mapscripts/g_default.cfg
+1742106232.937650: Looking for: mapscripts/g_kaos2_0.cfg
+1742106232.937675: Looking for: mapscripts/g_default_0.cfg
+1742106232.937692: AAS initialized.
+1742106232.938044: ClientUserinfoChanged: 0 n\Player_172.19.113.65\t\0\model\sarge\hmodel\sarge\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\4679348BDAF55B148E116C63720FC7E8
+1742106232.938533: ClientConnect: 0
+1742106232.938555: loaded skill 1 from bots/default_c.c
+1742106232.938776: loaded skill 1 from bots/angelyss_c.c
+1742106232.939007: loaded bots/angelyss_i.c
+1742106232.944404: loaded bots/angelyss_w.c
+1742106232.944830: loaded angelyss from bots/angelyss_t.c
+1742106232.946215: ClientUserinfoChanged: 1 n\Angelyss\t\0\model\angelyss\hmodel\angelyss\c1\4\c2\5\hc\50\w\0\l\0\skill\1.00\tt\0\tl\0\id\
+1742106232.946281: ClientConnect: 1
+1742106232.946301: Info: There has been at least 1 bot now
+1742106232.946324: Playerstore: Failed to restore player. Invalid guid:
+1742106232.946342: broadcast: print "Angelyss^7 entered the game\n"
+1742106232.946365: ClientBegin: 1
+1742106232.946388: loaded cached skill 1.000000 from bots/default_c.c
+1742106232.946444: loaded skill 1 from bots/arachna_c.c
+1742106232.946710: loaded bots/arachna_i.c
+1742106232.952081: loaded bots/arachna_w.c
+1742106232.952506: loaded arachna from bots/arachna_t.c
+1742106232.953856: ClientUserinfoChanged: 2 n\Arachna\t\0\model\arachna\hmodel\arachna\c1\4\c2\5\hc\50\w\0\l\0\skill\1.00\tt\0\tl\0\id\
+1742106232.953912: ClientConnect: 2
+1742106232.953936: Playerstore: Failed to restore player. Invalid guid:
+1742106232.953954: broadcast: print "Arachna^7 entered the game\n"
+1742106232.953978: ClientBegin: 2
+1742106232.954000: loaded cached skill 1.000000 from bots/default_c.c
+1742106232.954058: loaded skill 1 from bots/major_c.c
+1742106232.954302: loaded bots/major_i.c
+1742106232.959739: loaded bots/major_w.c
+1742106232.960161: loaded Major from bots/major_t.c
+1742106232.961566: ClientUserinfoChanged: 3 n\Major\t\0\model\major\hmodel\major\c1\4\c2\5\hc\50\w\0\l\0\skill\1.00\tt\0\tl\0\id\
+1742106232.961601: ClientConnect: 3
+1742106232.961620: Playerstore: Failed to restore player. Invalid guid:
+1742106232.961643: broadcast: print "Major^7 entered the game\n"
+1742106232.961708: ClientBegin: 3
+1742106232.961731: loaded cached skill 1.000000 from bots/default_c.c
+1742106232.961754: loaded skill 1 from bots/sarge_c.c
+1742106232.961995: loaded bots/sarge_i.c
+1742106232.967408: loaded bots/sarge_w.c
+1742106232.967845: loaded sarge from bots/sarge_t.c
+1742106232.969011: ClientUserinfoChanged: 4 n\Sarge\t\0\model\sarge\hmodel\sarge\c1\4\c2\5\hc\50\w\0\l\0\skill\1.00\tt\0\tl\0\id\
+1742106232.969086: ClientConnect: 4
+1742106232.969122: Playerstore: Failed to restore player. Invalid guid:
+1742106232.969149: broadcast: print "Sarge^7 entered the game\n"
+1742106232.969167: ClientBegin: 4
+1742106232.969189: -----------------------------------
+1742106232.969635: console: Starting warmup round: 5 minutes!
+1742106232.969658: broadcast: print "Server: timelimit changed to 5\n"
+1742106232.969835: Item: 2 ammo_slugs
+1742106233.102724: Item: 1 ammo_rockets
+1742106233.452856: Item: 4 weapon_lightning
+1742106234.153259: Item: 1 weapon_rocketlauncher
+1742106234.452873: Item: 4 ammo_lightning
+1742106234.702837: Item: 4 ammo_lightning
+1742106235.002773: Item: 2 weapon_shotgun
+1742106236.552936: ClientUserinfoChanged: 0 n\Player_172.19.113.65\t\0\model\sarge\hmodel\sarge\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\4679348BDAF55B148E116C63720FC7E8
+1742106237.181402: ClientUserinfoChanged: 0 n\Player_172.19.113.65\t\0\model\sarge\hmodel\sarge\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\4679348BDAF55B148E116C63720FC7E8
+1742106237.183036: Playerstore: Nothing to restore. Guid: 4679348BDAF55B148E116C63720FC7E8
+1742106237.183070: broadcast: print "Player_172.19.113.65^7 entered the game\n"
+1742106237.183096: ClientBegin: 0
+1742106237.183120: Info: There has been at least 1 humans now
+1742106237.183143: Item: 2 item_health_small
+1742106237.953009: Item: 2 item_health_small
+1742106238.202948: Item: 0 weapon_rocketlauncher
+1742106238.415001: Item: 1 weapon_grenadelauncher
+1742106238.953256: Item: 2 item_health_small
+1742106239.302698: Item: 2 item_health_small
+1742106239.552977: Item: 2 ammo_grenades
+1742106242.752842: Rcon from 172.19.113.65: vstr m1
+1742106246.729580: ==== ShutdownGame ====
+1742106246.752393: ShutdownGame:
+1742106246.752422: ------------------------------------------------------------
+1742106246.752440: AAS shutdown.
+1742106246.752734: ------ Server Initialization ------
+1742106246.755051: Server: aggressor
+1742106246.755081: Hunk_Clear: reset the hunk ok
+1742106246.755099: ----- FS_Startup -----
+1742106246.755114: We are looking in the current search path:
+1742106246.812321: /home/openarena/server.oa/baseoa
+1742106246.812372: /usr/lib/openarena-server/baseoa
+1742106246.812404: /usr/lib/openarena-server/baseoa/z_oacmp-volume1-v3.pk3 (370 files)
+1742106246.812435: /usr/lib/openarena-server/baseoa/pak6-patch088.pk3 (711 files)
+1742106246.812464: /usr/lib/openarena-server/baseoa/pak6-patch085.pk3 (559 files)
+1742106246.812492: /usr/lib/openarena-server/baseoa/pak6-misc.pk3 (229 files)
+1742106246.812520: /usr/lib/openarena-server/baseoa/pak5-TA.pk3 (139 files)
+1742106246.812547: /usr/lib/openarena-server/baseoa/pak4-textures.pk3 (1753 files)
+1742106246.812575: /usr/lib/openarena-server/baseoa/pak2-players.pk3 (669 files)
+1742106246.812618: /usr/lib/openarena-server/baseoa/pak2-players-mature.pk3 (231 files)
+1742106246.812647: /usr/lib/openarena-server/baseoa/pak1-maps.pk3 (100 files)
+1742106246.812675: /usr/lib/openarena-server/baseoa/pak0.pk3 (1042 files)
+1742106246.812703: 
+1742106246.812732: ----------------------
+1742106246.812762: 5803 files in pk3 files
+1742106246.812790: Loading vm file vm/qagame.qvm...
+1742106246.819419: File "vm/qagame.qvm" found in "/usr/lib/openarena-server/baseoa/pak6-patch088.pk3"
+1742106246.823871: ...which has vmMagic VM_MAGIC_VER2
+1742106246.823913: Loading 1658 jump table targets
+1742106246.824175: VM file qagame compiled to 1936982 bytes of code
+1742106246.853725: qagame loaded in 3957632 bytes on the hunk
+1742106246.853983: ------- Game Initialization -------
+1742106246.854017: gamename: baseoa
+1742106246.854041: gamedate: Nov 18 2024
+1742106246.854062: ------------------------------------------------------------
+1742106246.854293: InitGame: \com_protocol\71\g_lms_mode\0\elimination_roundtime\120\g_delagHitscan\0\g_voteMinFraglimit\0\g_voteMaxFraglimit\0\g_voteMinTimelimit\0\g_voteMaxTimelimit\1000\g_voteGametypes\/0/1/3/4/5/6/7/8/9/10/11/12/\g_allowVote\1\g_doWarmup\0\capturelimit\8\videoflags\7\g_maxGameClients\0\sv_maxclients\5\timelimit\3\fraglimit\0\dmflags\0\sv_hostname\NBN-UTS-Fortress OpenArena Server\sv_minRate\0\sv_maxRate\0\sv_dlRate\100\sv_minPing\0\sv_maxPing\0\sv_floodProtect\1\version\ioq3 1.36+u20241011.cc18246+dfsg-1/Debian linux-x86_64 Nov  5 2024\com_gamename\Quake3Arena\g_gametype\0\mapname\aggressor\sv_privateClients\0\sv_allowDownload\0\bot_minplayers\0\gamename\baseoa\elimflags\0\voteflags\767\g_needpass\0\g_obeliskRespawnDelay\10\g_enableFS\0\g_enableQ\0\g_enableDust\0\g_enableBreath\0\g_rockets\0\g_instantgib\0\g_altExcellent\0\g_timestamp\2025-03-16 17:24:06\bot_autominplayers\0
+1742106246.854401: Info: ServerInfo length: 879 of 1024
+1742106246.854442: ^3!readconfig: ^7could not open admin config file admin.dat
+1742106246.854497: Sprees/Kills: loaded 1 killing sprees, 0 death sprees, and 0 multikills.
+1742106246.854742: 0 teams with 0 entities
+1742106246.855943: 17 items registered
+1742106246.855974: -----------------------------------
+1742106246.855996: ------- BotLib Initialization -------
+1742106246.856038: loaded weapons.c
+1742106246.856448: loaded items.c
+1742106246.857249: loaded syn.c
+1742106246.858694: loaded rnd.c
+1742106246.861097: loaded match.c
+1742106246.863375: ------------ Map Loading ------------
+1742106246.863448: trying to load maps/aggressor.aas
+1742106246.863605: loaded maps/aggressor.aas
+1742106246.864600: found 29 level items
+1742106246.865257: -------------------------------------
+1742106246.865290: 33 bots parsed
+1742106246.867444: 71 arenas parsed
+1742106246.873945: File maps/aggressor.info not found
+1742106246.875018: Auther:
+1742106246.875047: Fraglimit: 0
+1742106246.875067: Capturelimit: 0
+1742106246.875085: minTeamSize: 0
+1742106246.875103: Looking for: mapscripts/g_aggressor.cfg
+1742106246.875138: Looking for: mapscripts/g_default.cfg
+1742106246.875187: Looking for: mapscripts/g_aggressor_0.cfg
+1742106246.875234: Looking for: mapscripts/g_default_0.cfg
+1742106246.875280: AAS initialized.
+1742106247.110565: ClientUserinfoChanged: 0 n\Player_172.19.113.65\t\0\model\sarge\hmodel\sarge\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\4679348BDAF55B148E116C63720FC7E8
+1742106247.110693: ClientConnect: 0
+1742106247.110717: loaded skill 1 from bots/default_c.c
+1742106247.110732: loaded skill 1 from bots/angelyss_c.c
+1742106247.110745: loaded bots/angelyss_i.c
+1742106247.110758: loaded bots/angelyss_w.c
+1742106247.110769: loaded angelyss from bots/angelyss_t.c
+1742106247.110781: ClientUserinfoChanged: 1 n\Angelyss\t\0\model\angelyss\hmodel\angelyss\c1\4\c2\5\hc\50\w\0\l\0\skill\1.00\tt\0\tl\0\id\
+1742106247.110795: ClientConnect: 1
+1742106247.110807: Info: There has been at least 1 bot now
+1742106247.110819: Playerstore: Failed to restore player. Invalid guid:
+1742106247.110832: broadcast: print "Angelyss^7 entered the game\n"
+1742106247.110845: ClientBegin: 1
+1742106247.110857: loaded cached skill 1.000000 from bots/default_c.c
+1742106247.110869: loaded skill 1 from bots/arachna_c.c
+1742106247.110940: loaded bots/arachna_i.c
+1742106247.110968: loaded bots/arachna_w.c
+1742106247.110980: loaded arachna from bots/arachna_t.c
+1742106247.110992: ClientUserinfoChanged: 2 n\Arachna\t\0\model\arachna\hmodel\arachna\c1\4\c2\5\hc\50\w\0\l\0\skill\1.00\tt\0\tl\0\id\
+1742106247.111006: ClientConnect: 2
+1742106247.111017: Playerstore: Failed to restore player. Invalid guid:
+1742106247.111029: broadcast: print "Arachna^7 entered the game\n"
+1742106247.111041: ClientBegin: 2
+1742106247.111052: loaded cached skill 1.000000 from bots/default_c.c
+1742106247.111065: loaded skill 1 from bots/major_c.c
+1742106247.111076: loaded bots/major_i.c
+1742106247.111088: loaded bots/major_w.c
+1742106247.111099: loaded Major from bots/major_t.c
+1742106247.111111: ClientUserinfoChanged: 3 n\Major\t\0\model\major\hmodel\major\c1\4\c2\5\hc\50\w\0\l\0\skill\1.00\tt\0\tl\0\id\
+1742106247.111124: ClientConnect: 3
+1742106247.111135: Playerstore: Failed to restore player. Invalid guid:
+1742106247.111147: broadcast: print "Major^7 entered the game\n"
+1742106247.111158: ClientBegin: 3
+1742106247.111170: loaded cached skill 1.000000 from bots/default_c.c
+1742106247.111199: loaded skill 1 from bots/sarge_c.c
+1742106247.111212: loaded bots/sarge_i.c
+1742106247.111223: loaded bots/sarge_w.c
+1742106247.111235: loaded sarge from bots/sarge_t.c
+1742106247.111246: ClientUserinfoChanged: 4 n\Sarge\t\0\model\sarge\hmodel\sarge\c1\4\c2\5\hc\50\w\0\l\0\skill\1.00\tt\0\tl\0\id\
+1742106247.111258: ClientConnect: 4
+1742106247.111270: Playerstore: Failed to restore player. Invalid guid:
+1742106247.111281: broadcast: print "Sarge^7 entered the game\n"
+1742106247.111293: ClientBegin: 4
+1742106247.111305: -----------------------------------
+1742106247.111316: ^1Error: weapon number out of range
+1742106247.111328: Item: 4 weapon_shotgun
+1742106247.152501: Item: 1 ammo_rockets
+1742106247.652752: Item: 2 ammo_rockets
+1742106249.202864: Item: 4 item_armor_combat
+1742106249.202945: Item: 2 weapon_rocketlauncher
+1742106249.652662: ClientUserinfoChanged: 0 n\Player_172.19.113.65\t\0\model\sarge\hmodel\sarge\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\4679348BDAF55B148E116C63720FC7E8
+1742106249.997379: Playerstore: Nothing to restore. Guid: 4679348BDAF55B148E116C63720FC7E8
+1742106249.997442: broadcast: print "Player_172.19.113.65^7 entered the game\n"
+1742106249.997537: ClientBegin: 0
+1742106249.997592: Info: There has been at least 1 humans now
+1742106249.997650: Item: 4 weapon_railgun
+1742106251.202973: Item: 4 ammo_cells
+1742106251.303109: Item: 0 weapon_shotgun
+1742106252.426948: Item: 3 weapon_plasmagun
+1742106252.852850: Item: 3 ammo_bullets
+1742106252.952652: Item: 2 weapon_grenadelauncher
+1742106253.953192: Kill: 0 2 1: Player_172.19.113.65 killed Arachna by MOD_SHOTGUN
+1742106254.953075: PlayerScore: 0 1: Player_172.19.113.65 now has 1 points
+1742106254.953198: Item: 0 weapon_rocketlauncher
+1742106254.953365: Item: 3 ammo_bullets
+1742106255.453109: Item: 3 ammo_cells
+1742106255.852541: Item: 2 weapon_railgun
+1742106258.002793: Item: 0 item_armor_shard
+1742106258.927155: Item: 0 item_armor_shard
+1742106259.229834: Item: 3 weapon_grenadelauncher
+1742106260.603122: Item: 1 item_health
+1742106261.003089: Kill: 4 1 1: Sarge killed Angelyss by MOD_SHOTGUN
+1742106261.253121: PlayerScore: 4 1: Sarge now has 1 points
+1742106261.253147: Item: 2 weapon_plasmagun
+1742106263.602798: Item: 3 weapon_railgun
+1742106264.652740: Item: 1 weapon_rocketlauncher
+1742106267.353207: Item: 3 item_health_small
+1742106268.752798: Item: 3 item_health_small
+1742106268.802984: Item: 3 item_health_small
+1742106268.853134: Item: 3 item_health_small
+1742106268.853162: Item: 1 weapon_plasmagun
+1742106270.552857: Item: 2 weapon_grenadelauncher
+1742106271.452812: Item: 3 ammo_shells
+1742106272.053194: Item: 3 item_armor_combat
+1742106272.902966: Item: 2 item_armor_shard
+1742106273.303120: Item: 2 item_armor_shard
+1742106273.303185: Item: 3 weapon_lightning
+1742106273.453037: Item: 0 item_armor_combat
+1742106275.408528: Item: 1 weapon_shotgun
+1742106276.753205: Item: 4 weapon_lightning
+1742106278.702846: Item: 1 item_armor_combat
+1742106278.852516: Kill: 0 4 1: Player_172.19.113.65 killed Sarge by MOD_SHOTGUN
+1742106279.321692: PlayerScore: 0 2: Player_172.19.113.65 now has 2 points
+1742106279.321943: Item: 0 weapon_lightning
+1742106280.690940: Item: 4 weapon_grenadelauncher
+1742106282.503065: Item: 2 item_health_mega
+1742106282.853223: Item: 4 item_armor_shard
+1742106284.352817: Item: 4 item_armor_shard
+1742106284.452926: Item: 3 weapon_rocketlauncher
+1742106287.652802: Item: 4 weapon_plasmagun
+1742106288.003117: Item: 2 ammo_rockets
+1742106289.954162: Item: 4 weapon_lightning
+1742106291.802925: Item: 3 item_health
+1742106292.752751: Item: 4 weapon_shotgun
+1742106294.402874: Kill: 0 1 1: Player_172.19.113.65 killed Angelyss by MOD_SHOTGUN
+1742106296.756291: PlayerScore: 0 3: Player_172.19.113.65 now has 3 points
+1742106296.756410: Item: 0 weapon_plasmagun
+1742106296.756581: Item: 2 ammo_bullets
+1742106297.852798: Item: 0 ammo_bullets
+1742106297.872933: Item: 2 weapon_plasmagun
+1742106298.053130: Item: 3 ammo_cells
+1742106298.802958: Item: 1 ammo_rockets
+1742106301.052705: Item: 1 weapon_rocketlauncher
+1742106301.502754: Item: 4 ammo_cells
+1742106301.953137: Item: 4 weapon_railgun
+1742106302.252744: Item: 0 item_armor_shard
+1742106303.637994: Item: 0 item_armor_shard
+1742106303.804279: Item: 2 weapon_plasmagun
+1742106304.653149: Item: 3 weapon_lightning
+1742106306.302875: Item: 4 item_health_small
+1742106306.753158: Item: 4 item_health_small
+1742106306.753185: Item: 4 item_health_small
+1742106306.852700: Item: 4 item_health_small
+1742106306.852813: Item: 2 item_armor_combat
+1742106307.752738: Item: 3 item_armor_combat
+1742106309.303122: Item: 1 weapon_grenadelauncher
+1742106309.653164: Item: 2 weapon_shotgun
+1742106310.752641: Item: 1 item_armor_shard
+1742106312.052825: Item: 1 item_armor_shard
+1742106312.202878: Item: 0 weapon_plasmagun
+1742106313.207811: Item: 2 weapon_railgun
+1742106314.603112: Item: 1 ammo_shells
+1742106315.253144: Item: 1 weapon_lightning
+1742106316.702815: Item: 1 weapon_shotgun
+1742106319.502939: Item: 0 weapon_plasmagun
+1742106320.021523: Item: 3 item_health
+1742106322.752894: Item: 2 weapon_grenadelauncher
+1742106323.452655: Item: 4 item_armor_combat
+1742106323.752889: Item: 3 weapon_rocketlauncher
+1742106324.702859: Item: 1 weapon_railgun
+1742106324.803023: Item: 0 weapon_plasmagun
+1742106326.005561: Item: 1 item_health_mega
+1742106329.103133: Item: 3 weapon_railgun
+1742106332.252967: Item: 4 weapon_rocketlauncher
+1742106336.602838: Item: 0 weapon_plasmagun
+1742106337.222806: Item: 3 item_health
+1742106338.003129: Item: 3 ammo_rockets
+1742106338.302930: Item: 3 item_armor_shard
+1742106339.652732: Item: 3 item_armor_shard
+1742106339.703088: Item: 2 ammo_bullets
+1742106341.003173: Item: 4 weapon_grenadelauncher
+1742106341.052999: Kill: 1 4 11: Angelyss killed Sarge by MOD_LIGHTNING
+1742106341.103006: PlayerScore: 1 1: Angelyss now has 1 points
+1742106341.103186: Item: 3 ammo_bullets
+1742106341.552766: Item: 3 ammo_cells
+1742106342.102805: Item: 0 weapon_plasmagun
+1742106342.405508: Item: 1 weapon_grenadelauncher
+1742106343.003158: Item: 2 item_health
+1742106343.352964: Item: 4 weapon_lightning
+1742106343.353014: Item: 2 item_armor_combat
+1742106344.102750: Kill: 0 2 8: Player_172.19.113.65 killed Arachna by MOD_PLASMA
+1742106344.903016: PlayerScore: 0 4: Player_172.19.113.65 now has 4 points
+1742106344.903037: Kill: 0 0 9: Player_172.19.113.65 killed Player_172.19.113.65 by MOD_PLASMA_SPLASH
+1742106344.903048: PlayerScore: 0 3: Player_172.19.113.65 now has 3 points
+1742106344.903056: Item: 3 item_armor_shard
+1742106345.603185: Item: 3 item_armor_shard
+1742106345.603215: Item: 4 item_armor_combat
+1742106345.902776: Item: 2 ammo_cells
+1742106347.403165: Item: 2 weapon_railgun
+1742106347.603132: Item: 0 ammo_rockets
+1742106348.306237: Item: 0 weapon_rocketlauncher
+1742106348.404902: Item: 3 weapon_railgun
+1742106348.853181: Item: 3 weapon_plasmagun
+1742106349.352715: Item: 0 weapon_plasmagun
+1742106352.098943: Item: 2 weapon_grenadelauncher
+1742106352.403128: Item: 3 weapon_shotgun
+1742106352.903151: Item: 3 item_health
+1742106354.703152: Item: 0 weapon_lightning
+1742106354.971709: Item: 2 weapon_rocketlauncher
+1742106356.403165: Item: 4 item_health_small
+1742106358.003143: Item: 4 item_health_small
+1742106358.003173: Item: 4 item_health_small
+1742106358.153127: Item: 1 weapon_railgun
+1742106359.202857: Item: 2 weapon_plasmagun
+1742106359.852649: Item: 0 weapon_grenadelauncher
+1742106360.438528: Item: 3 item_health
+1742106363.803154: Item: 4 ammo_shells
+1742106364.352917: Item: 3 weapon_rocketlauncher
+1742106365.854159: Item: 4 weapon_lightning
+1742106365.902931: Item: 2 weapon_shotgun
+1742106366.702798: Item: 0 item_armor_shard
+1742106367.974129: Item: 0 item_armor_shard
+1742106367.974197: Kill: 4 2 11: Sarge killed Arachna by MOD_LIGHTNING
+1742106368.802570: PlayerScore: 4 2: Sarge now has 2 points
+1742106368.802645: Item: 4 weapon_railgun
+1742106371.252525: Item: 0 item_armor_shard
+1742106372.042409: Item: 0 item_armor_shard
+1742106372.156533: Item: 1 weapon_rocketlauncher
+1742106372.503097: Item: 2 weapon_grenadelauncher
+1742106372.903124: Item: 3 item_armor_combat
+1742106374.853177: Item: 3 weapon_lightning
+1742106375.552916: Item: 1 weapon_plasmagun
+1742106375.952789: Item: 3 item_armor_combat
+1742106378.853179: Item: 4 item_health
+1742106381.652857: Item: 4 weapon_lightning
+1742106382.403073: Item: 2 weapon_railgun
+1742106383.303120: Item: 3 item_health_small
+1742106384.352926: Item: 0 ammo_rockets
+1742106384.772283: Item: 0 item_health
+1742106385.091532: Item: 4 weapon_shotgun
+1742106385.203100: Item: 1 ammo_cells
+1742106386.353149: Item: 1 ammo_bullets
+1742106386.752862: Item: 1 weapon_lightning
+1742106389.402936: Item: 4 weapon_grenadelauncher
+1742106389.553118: Item: 0 item_armor_combat
+1742106390.406368: Item: 0 weapon_plasmagun
+1742106393.073828: Item: 0 ammo_bullets
+1742106393.291241: Item: 3 ammo_rockets
+1742106393.453114: Item: 3 weapon_rocketlauncher
+1742106393.802802: Item: 2 weapon_shotgun
+1742106393.902803: Item: 0 weapon_lightning
+1742106395.973904: Item: 3 weapon_grenadelauncher
+1742106398.253157: Item: 0 item_health
+1742106398.689056: Kill: 0 1 7: Player_172.19.113.65 killed Angelyss by MOD_ROCKET_SPLASH
+1742106400.252822: PlayerScore: 0 4: Player_172.19.113.65 now has 4 points
+1742106400.252946: Item: 3 weapon_plasmagun
+1742106400.352926: Kill: 0 3 7: Player_172.19.113.65 killed Major by MOD_ROCKET_SPLASH
+1742106401.102761: PlayerScore: 0 5: Player_172.19.113.65 now has 5 points
+1742106401.103171: Award: 0 1: Player_172.19.113.65 gained the EXCELLENT award!
+1742106401.103197: Item: 2 item_health_small
+1742106401.252476: Item: 2 item_health_small
+1742106401.252583: Item: 2 item_health_small
+1742106401.403090: Item: 4 weapon_plasmagun
+1742106402.053157: Item: 3 ammo_cells
+1742106403.552713: Item: 3 weapon_railgun
+1742106403.752615: Item: 0 weapon_railgun
+1742106403.805592: Item: 1 weapon_rocketlauncher
+1742106404.602767: Item: 0 weapon_grenadelauncher
+1742106406.456172: Item: 0 item_armor_shard
+1742106408.441190: Item: 0 item_armor_shard
+1742106408.557993: Kill: 0 1 4: Player_172.19.113.65 killed Angelyss by MOD_GRENADE
+1742106409.553040: PlayerScore: 0 6: Player_172.19.113.65 now has 6 points
+1742106409.553071: Item: 0 item_armor_shard
+1742106410.845987: Item: 0 item_armor_shard
+1742106410.846176: Item: 3 ammo_shells
+1742106411.703175: Item: 1 weapon_lightning
+1742106411.803071: Item: 4 weapon_rocketlauncher
+1742106412.752886: Kill: 4 2 4: Sarge killed Arachna by MOD_GRENADE
+1742106413.803001: PlayerScore: 4 3: Sarge now has 3 points
+1742106413.803374: Item: 1 weapon_shotgun
+1742106414.253046: Item: 0 weapon_grenadelauncher
+1742106414.741548: Item: 4 item_armor_combat
+1742106416.703480: Item: 2 weapon_railgun
+1742106420.002842: Kill: 0 1 5: Player_172.19.113.65 killed Angelyss by MOD_GRENADE_SPLASH
+1742106421.153128: PlayerScore: 0 7: Player_172.19.113.65 now has 7 points
+1742106421.153161: Item: 4 item_health_small
+1742106423.452678: Item: 2 weapon_rocketlauncher
+1742106423.653134: Item: 3 weapon_lightning
+1742106423.952719: broadcast: print "Timelimit hit.\n"
+1742106426.302962: Exit: Timelimit hit.
+1742106426.303980: Accuracy: 0 f0\0\h0\0\f1\0\h1\0\f2\3\h2\0\f3\10\h3\5\f4\25\h4\4\f5\25\h5\5\f6\109\h6\0\f7\0\h7\0\f8\165\h8\9\f9\0\h9\0\f10\0\h10\0\f11\0\h11\0\f12\0\h12\0\f13\0\h13\0
+1742106426.304007: Accuracy: 1 f0\0\h0\0\f1\0\h1\0\f2\5\h2\1\f3\0\h3\0\f4\3\h4\1\f5\2\h5\2\f6\100\h6\0\f7\0\h7\0\f8\0\h8\0\f9\0\h9\0\f10\0\h10\0\f11\0\h11\0\f12\0\h12\0\f13\0\h13\0
+1742106426.304024: Accuracy: 2 f0\0\h0\0\f1\0\h1\0\f2\0\h2\0\f3\0\h3\0\f4\0\h4\0\f5\0\h5\0\f6\0\h6\0\f7\10\h7\1\f8\0\h8\0\f9\0\h9\0\f10\0\h10\0\f11\0\h11\0\f12\0\h12\0\f13\0\h13\0
+1742106426.304039: Accuracy: 3 f0\0\h0\0\f1\0\h1\0\f2\4\h2\0\f3\0\h3\0\f4\0\h4\0\f5\0\h5\0\f6\0\h6\0\f7\8\h7\0\f8\0\h8\0\f9\0\h9\0\f10\0\h10\0\f11\0\h11\0\f12\0\h12\0\f13\0\h13\0
+1742106426.304054: Accuracy: 4 f0\0\h0\0\f1\0\h1\0\f2\0\h2\0\f3\9\h3\3\f4\7\h4\5\f5\0\h5\0\f6\92\h6\0\f7\0\h7\0\f8\0\h8\0\f9\0\h9\0\f10\0\h10\0\f11\0\h11\0\f12\0\h12\0\f13\0\h13\0
+1742106426.304067: score: 7  ping: 215  client: 0 Player_172.19.113.65
+1742106426.304083: score: 3  ping: 0  client: 4 Sarge
+1742106426.304098: score: 1  ping: 0  client: 1 Angelyss
+1742106426.304112: score: 0  ping: 0  client: 2 Arachna
+1742106426.304146: score: 0  ping: 0  client: 3 Major
+1742106426.304160: Item: 4 item_health
+1742106426.552729: Item: 2 weapon_plasmagun
+1742106426.852920: ==== ShutdownGame ====
+1742106432.352289: ShutdownGame:
+1742106432.352391: ------------------------------------------------------------
+1742106432.352466: AAS shutdown.
+1742106432.352941: ------ Server Initialization ------
+1742106432.353791: Server: wrackdm17
+1742106432.353849: Hunk_Clear: reset the hunk ok
+1742106432.353888: ----- FS_Startup -----
+1742106432.355630: We are looking in the current search path:
+1742106432.413215: /home/openarena/server.oa/baseoa
+1742106432.413261: /usr/lib/openarena-server/baseoa
+1742106432.413289: /usr/lib/openarena-server/baseoa/z_oacmp-volume1-v3.pk3 (370 files)
+1742106432.413317: /usr/lib/openarena-server/baseoa/pak6-patch088.pk3 (711 files)
+1742106432.413358: /usr/lib/openarena-server/baseoa/pak6-patch085.pk3 (559 files)
+1742106432.413385: /usr/lib/openarena-server/baseoa/pak6-misc.pk3 (229 files)
+1742106432.413410: /usr/lib/openarena-server/baseoa/pak5-TA.pk3 (139 files)
+1742106432.413434: /usr/lib/openarena-server/baseoa/pak4-textures.pk3 (1753 files)
+1742106432.413482: /usr/lib/openarena-server/baseoa/pak2-players.pk3 (669 files)
+1742106432.413516: /usr/lib/openarena-server/baseoa/pak2-players-mature.pk3 (231 files)
+1742106432.413541: /usr/lib/openarena-server/baseoa/pak1-maps.pk3 (100 files)
+1742106432.413565: /usr/lib/openarena-server/baseoa/pak0.pk3 (1042 files)
+1742106432.413589: 
+1742106432.413616: ----------------------
+1742106432.413641: 5803 files in pk3 files
+1742106432.413666: Loading vm file vm/qagame.qvm...
+1742106432.455084: File "vm/qagame.qvm" found in "/usr/lib/openarena-server/baseoa/pak6-patch088.pk3"
+1742106432.458352: ...which has vmMagic VM_MAGIC_VER2
+1742106432.458380: Loading 1658 jump table targets
+1742106432.458492: VM file qagame compiled to 1936982 bytes of code
+1742106432.485602: qagame loaded in 3957632 bytes on the hunk
+1742106432.485856: ------- Game Initialization -------
+1742106432.485887: gamename: baseoa
+1742106432.485907: gamedate: Nov 18 2024
+1742106432.485925: ------------------------------------------------------------
+1742106432.486168: InitGame: \com_protocol\71\g_lms_mode\0\elimination_roundtime\120\g_delagHitscan\0\g_voteMinFraglimit\0\g_voteMaxFraglimit\0\g_voteMinTimelimit\0\g_voteMaxTimelimit\1000\g_voteGametypes\/0/1/3/4/5/6/7/8/9/10/11/12/\g_allowVote\1\g_doWarmup\0\capturelimit\8\videoflags\7\g_maxGameClients\0\sv_maxclients\5\timelimit\3\fraglimit\0\dmflags\0\sv_hostname\NBN-UTS-Fortress OpenArena Server\sv_minRate\0\sv_maxRate\0\sv_dlRate\100\sv_minPing\0\sv_maxPing\0\sv_floodProtect\1\version\ioq3 1.36+u20241011.cc18246+dfsg-1/Debian linux-x86_64 Nov  5 2024\com_gamename\Quake3Arena\g_gametype\0\mapname\wrackdm17\sv_privateClients\0\sv_allowDownload\0\bot_minplayers\0\gamename\baseoa\elimflags\0\voteflags\767\g_needpass\0\g_obeliskRespawnDelay\10\g_enableFS\0\g_enableQ\0\g_enableDust\0\g_enableBreath\0\g_rockets\0\g_instantgib\0\g_altExcellent\0\g_timestamp\2025-03-16 17:27:12\bot_autominplayers\0
+1742106432.486263: Info: ServerInfo length: 879 of 1024
+1742106432.486299: ^3!readconfig: ^7could not open admin config file admin.dat
+1742106432.486350: Sprees/Kills: loaded 1 killing sprees, 0 death sprees, and 0 multikills.
+1742106432.486595: 0 teams with 0 entities
+1742106432.488107: 16 items registered
+1742106432.488136: -----------------------------------
+1742106432.488156: ------- BotLib Initialization -------
+1742106432.488197: loaded weapons.c
+1742106432.488608: loaded items.c
+1742106432.489381: loaded syn.c
+1742106432.490814: loaded rnd.c
+1742106432.493196: loaded match.c
+1742106432.495463: ------------ Map Loading ------------
+1742106432.495554: trying to load maps/wrackdm17.aas
+1742106432.495727: loaded maps/wrackdm17.aas
+1742106432.500122: found 61 level items
+1742106432.501381: -------------------------------------
+1742106432.501417: 33 bots parsed
+1742106432.503631: 71 arenas parsed
+1742106432.510225: File maps/wrackdm17.info not found
+1742106432.511310: Auther:
+1742106432.511341: Fraglimit: 0
+1742106432.511361: Capturelimit: 0
+1742106432.511380: minTeamSize: 0
+1742106432.511398: Looking for: mapscripts/g_wrackdm17.cfg
+1742106432.511433: Looking for: mapscripts/g_default.cfg
+1742106432.511481: Looking for: mapscripts/g_wrackdm17_0.cfg
+1742106432.511528: Looking for: mapscripts/g_default_0.cfg
+1742106432.511575: AAS initialized.
+1742106432.514734: Warmup round complete: applying initial network conditions.
+1742106432.514734: Latency map:  {'172.19.113.65': 200}
+1742106432.696651: ClientUserinfoChanged: 0 n\Player_172.19.113.65\t\0\model\sarge\hmodel\sarge\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\4679348BDAF55B148E116C63720FC7E8
+1742106432.696720: ClientConnect: 0
+1742106432.696731: loaded skill 1 from bots/default_c.c
+1742106432.696738: loaded skill 1 from bots/angelyss_c.c
+1742106432.696744: loaded bots/angelyss_i.c
+1742106432.696749: loaded bots/angelyss_w.c
+1742106432.696754: loaded angelyss from bots/angelyss_t.c
+1742106432.696759: ClientUserinfoChanged: 1 n\Angelyss\t\0\model\angelyss\hmodel\angelyss\c1\4\c2\5\hc\50\w\0\l\0\skill\1.00\tt\0\tl\0\id\
+1742106432.696766: ClientConnect: 1
+1742106432.696772: Info: There has been at least 1 bot now
+1742106432.696777: Playerstore: Failed to restore player. Invalid guid:
+1742106432.696782: broadcast: print "Angelyss^7 entered the game\n"
+1742106432.696788: ClientBegin: 1
+1742106432.696793: loaded cached skill 1.000000 from bots/default_c.c
+1742106432.696799: loaded skill 1 from bots/arachna_c.c
+1742106432.696804: loaded bots/arachna_i.c
+1742106432.696809: loaded bots/arachna_w.c
+1742106432.696814: loaded arachna from bots/arachna_t.c
+1742106432.696819: ClientUserinfoChanged: 2 n\Arachna\t\0\model\arachna\hmodel\arachna\c1\4\c2\5\hc\50\w\0\l\0\skill\1.00\tt\0\tl\0\id\
+1742106432.696825: ClientConnect: 2
+1742106432.696830: Playerstore: Failed to restore player. Invalid guid:
+1742106432.696835: broadcast: print "Arachna^7 entered the game\n"
+1742106432.696840: ClientBegin: 2
+1742106432.696845: loaded cached skill 1.000000 from bots/default_c.c
+1742106432.696851: loaded skill 1 from bots/major_c.c
+1742106432.696856: loaded bots/major_i.c
+1742106432.696861: loaded bots/major_w.c
+1742106432.696866: loaded Major from bots/major_t.c
+1742106432.696871: ClientUserinfoChanged: 3 n\Major\t\0\model\major\hmodel\major\c1\4\c2\5\hc\50\w\0\l\0\skill\1.00\tt\0\tl\0\id\
+1742106432.696877: ClientConnect: 3
+1742106432.696882: Playerstore: Failed to restore player. Invalid guid:
+1742106432.696887: broadcast: print "Major^7 entered the game\n"
+1742106432.696893: ClientBegin: 3
+1742106432.696898: loaded cached skill 1.000000 from bots/default_c.c
+1742106432.696903: loaded skill 1 from bots/sarge_c.c
+1742106432.696908: loaded bots/sarge_i.c
+1742106432.696913: loaded bots/sarge_w.c
+1742106432.696918: loaded sarge from bots/sarge_t.c
+1742106432.696923: ClientUserinfoChanged: 4 n\Sarge\t\0\model\sarge\hmodel\sarge\c1\4\c2\5\hc\50\w\0\l\0\skill\1.00\tt\0\tl\0\id\
+1742106432.696928: ClientConnect: 4
+1742106432.696933: Playerstore: Failed to restore player. Invalid guid:
+1742106432.696939: broadcast: print "Sarge^7 entered the game\n"
+1742106432.696944: ClientBegin: 4
+1742106432.696949: -----------------------------------
+1742106432.696954: Item: 1 weapon_rocketlauncher
+1742106433.002646: Item: 2 item_armor_shard
+1742106433.352891: Item: 2 item_armor_shard
+1742106433.452840: Item: 1 ammo_rockets
+1742106433.502580: Item: 1 ammo_rockets
+1742106433.702697: Item: 2 item_armor_shard
+1742106433.852879: Item: 2 item_armor_shard
+1742106434.102626: ClientUserinfoChanged: 0 n\Player_172.19.113.65\t\0\model\sarge\hmodel\sarge\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0\id\4679348BDAF55B148E116C63720FC7E8
+1742106436.604830: Playerstore: Nothing to restore. Guid: 4679348BDAF55B148E116C63720FC7E8
+1742106436.604869: broadcast: print "Player_172.19.113.65^7 entered the game\n"
+1742106436.604893: ClientBegin: 0
+1742106436.605113: Info: There has been at least 1 humans now
+1742106436.605144: broadcast: print "Player_172.19.113.65^7 disconnected\n"
+1742106436.620178: Kill: 1022 0 20: <world> killed Player_172.19.113.65 by MOD_SUICIDE
+1742106436.620201: Accuracy: 0 f0\0\h0\0\f1\0\h1\0\f2\0\h2\0\f3\0\h3\0\f4\0\h4\0\f5\0\h5\0\f6\0\h6\0\f7\0\h7\0\f8\0\h8\0\f9\0\h9\0\f10\0\h10\0\f11\0\h11\0\f12\0\h12\0\f13\0\h13\0
+1742106436.620217: Playerstore: Stored player with guid: 4679348BDAF55B148E116C63720FC7E8 in 0
+1742106436.620229: ClientDisconnect: 0
+1742106436.620242: Item: 2 weapon_plasmagun
+1742106436.752807: Item: 2 ammo_cells
+1742106437.202845: Item: 4 weapon_plasmagun
+1742106437.252907: Item: 4 ammo_cells
+1742106437.302927: Item: 2 ammo_rockets
+1742106439.252830: Item: 2 ammo_rockets
+1742106439.352936: Item: 1 ammo_rockets
+1742106440.052876: Item: 2 weapon_grenadelauncher
+1742106440.053203: Item: 4 item_armor_shard
+1742106441.502782: Item: 4 ammo_shells
+1742106441.703020: Item: 4 item_armor_shard
+1742106442.053098: Item: 4 weapon_shotgun
+1742106442.553117: Item: 3 item_armor_shard
+1742106445.302939: Item: 4 weapon_rocketlauncher
+1742106447.402856: Item: 1 ammo_rockets
+1742106449.002854: Item: 1 ammo_rockets
+1742106449.102791: Item: 1 weapon_grenadelauncher
+1742106449.652784: Item: 2 ammo_rockets
+1742106450.202983: Item: 2 weapon_rocketlauncher
+1742106451.002959: Item: 2 item_armor_body
+1742106453.753260: Item: 1 weapon_plasmagun
+1742106454.652957: Item: 3 weapon_rocketlauncher
+1742106456.202783: Item: 1 weapon_shotgun
+1742106459.052664: Item: 2 weapon_railgun
+1742106459.902682: Item: 1 item_armor_shard
+1742106460.652827: Item: 2 item_armor_shard
+1742106461.052783: Item: 2 item_health
+1742106461.202808: Item: 2 item_armor_shard
+1742106461.403040: Item: 4 item_armor_shard
+1742106461.553093: Item: 4 item_health
+1742106461.702746: Item: 4 item_armor_shard
+1742106461.902767: Item: 3 item_armor_shard
+1742106464.702786: Item: 3 item_armor_shard
+1742106464.902817: Item: 3 item_armor_shard
+1742106465.152897: Item: 3 item_armor_combat
+1742106466.503246: Item: 4 item_health
+1742106466.753016: Item: 1 weapon_rocketlauncher
+1742106466.853004: Item: 3 item_armor_shard
+1742106467.553182: Item: 3 item_armor_shard
+1742106467.603575: Item: 3 item_armor_shard
+1742106467.653686: Item: 3 item_armor_shard
+1742106467.853144: Item: 4 weapon_grenadelauncher
+1742106469.252948: Item: 3 weapon_shotgun
+1742106473.103151: Item: 3 item_armor_shard
+1742106473.552961: Item: 3 ammo_shells
+1742106473.652959: Item: 3 item_armor_shard
+1742106473.952808: Item: 2 item_health
+1742106474.352938: Item: 3 item_health
+1742106475.953233: Item: 2 weapon_rocketlauncher
+1742106476.503079: Item: 1 ammo_cells
+1742106477.302930: Item: 4 weapon_rocketlauncher
+1742106480.053032: Item: 4 ammo_rockets
+1742106480.552916: Item: 4 ammo_rockets
+1742106480.802957: Item: 1 weapon_railgun
+1742106481.102956: Item: 2 ammo_rockets
+1742106482.302838: Item: 2 ammo_rockets
+1742106482.552943: Item: 4 item_armor_body
+1742106483.802740: Item: 2 weapon_grenadelauncher
+1742106485.252974: Item: 3 weapon_rocketlauncher
+1742106489.753129: Item: 1 item_health
+1742106489.853029: Item: 1 ammo_rockets
+1742106496.452881: Item: 4 ammo_cells
+1742106496.753018: Item: 1 ammo_rockets
+1742106496.802813: Item: 3 weapon_plasmagun
+1742106498.152958: Item: 3 ammo_cells
+1742106498.202941: Item: 3 ammo_rockets
+1742106500.352913: Item: 3 ammo_rockets
+1742106500.853078: Item: 3 weapon_grenadelauncher
+1742106501.552893: Item: 2 item_armor_shard
+1742106503.853101: Item: 2 ammo_shells
+1742106504.102724: Item: 2 item_armor_shard
+1742106504.503033: Item: 2 weapon_shotgun
+1742106505.002784: Item: 4 item_armor_shard
+1742106505.603151: Item: 4 item_armor_shard
+1742106505.853120: Item: 4 item_quad
+1742106506.253078: Item: 2 item_armor_shard
+1742106506.602918: Item: 2 item_armor_shard
+1742106506.803000: Kill: 4 1 4: Sarge killed Angelyss by MOD_GRENADE
+1742106507.602703: PlayerScore: 4 1: Sarge now has 1 points
+1742106507.603051: Item: 4 item_armor_body
+1742106508.952683: Item: 2 weapon_plasmagun
+1742106509.302769: Item: 3 weapon_railgun
+1742106510.252848: Item: 1 weapon_grenadelauncher
+1742106510.953001: Item: 3 item_armor_shard
+1742106511.502710: Item: 3 item_health
+1742106511.652989: Item: 3 item_armor_shard
+1742106511.852992: Item: 2 weapon_plasmagun
+1742106513.352795: Item: 1 item_armor_combat
+1742106519.002871: Item: 2 weapon_grenadelauncher
+1742106520.902978: Item: 2 item_armor_shard
+1742106522.253011: Item: 1 weapon_rocketlauncher
+1742106526.002692: Item: 1 ammo_cells
+1742106531.002851: Item: 1 weapon_plasmagun
+1742106531.252807: Item: 3 ammo_cells
+1742106534.552994: Item: 4 item_armor_body
+1742106536.202954: Item: 1 item_armor_shard
+1742106536.702865: Item: 1 ammo_shells
+1742106536.902689: Item: 2 item_health
+1742106537.702857: Item: 1 item_health
+1742106539.152976: Item: 2 ammo_rockets
+1742106539.902764: Item: 2 ammo_rockets
+1742106540.102828: Item: 2 weapon_grenadelauncher
+1742106540.552984: Item: 2 item_armor_shard
+1742106541.502944: Item: 1 item_armor_shard
+1742106542.152953: Item: 2 item_armor_shard
+1742106542.202628: Item: 1 weapon_shotgun
+1742106542.702914: Item: 3 item_health
+1742106542.702948: Item: 4 weapon_railgun
+1742106542.702968: Item: 2 ammo_rockets
+1742106546.903012: Item: 2 ammo_rockets
+1742106546.953391: Item: 4 weapon_plasmagun
+1742106547.902735: Item: 4 ammo_cells
+1742106548.302806: Item: 4 weapon_grenadelauncher
+1742106550.202975: Item: 1 ammo_rockets
+1742106551.903166: Item: 4 item_armor_shard
+1742106551.903198: Item: 1 ammo_rockets
+1742106552.202767: Item: 2 weapon_rocketlauncher
+1742106552.402772: Item: 3 ammo_rockets
+1742106553.853357: Item: 3 ammo_rockets
+1742106554.253570: Item: 4 item_armor_combat
+1742106555.853284: Item: 1 item_armor_shard
+1742106557.303360: Item: 1 ammo_shells
+1742106557.503336: Item: 1 item_armor_shard
+1742106557.753344: Item: 4 item_armor_shard
+1742106558.353180: Item: 1 weapon_shotgun
+1742106558.453308: Item: 1 item_armor_shard
+1742106559.952879: Item: 1 item_armor_shard
+1742106560.152988: Item: 1 item_armor_shard
+1742106560.352806: Item: 1 item_armor_shard
+1742106560.602832: Item: 1 weapon_plasmagun
+1742106563.502705: Item: 4 weapon_rocketlauncher
+1742106564.353173: Item: 1 weapon_grenadelauncher
+1742106565.302987: Item: 4 item_armor_shard
+1742106569.353287: Item: 3 weapon_plasmagun
+1742106570.203173: Item: 4 weapon_shotgun
+1742106572.953478: Item: 1 weapon_railgun
+1742106574.153197: Item: 2 item_armor_shard
+1742106574.802957: Item: 1 item_armor_shard
+1742106575.353139: Item: 1 item_health
+1742106575.503104: Item: 4 item_health
+1742106575.503135: Item: 1 item_armor_shard
+1742106575.702795: Item: 2 item_armor_body
+1742106576.403074: Item: 2 ammo_cells
+1742106580.953019: Item: 4 item_health
+1742106581.902788: Item: 3 ammo_cells
+1742106582.253006: Item: 4 ammo_rockets
+1742106583.852997: Item: 4 ammo_rockets
+1742106584.052937: Item: 4 weapon_grenadelauncher
+1742106584.453031: Item: 1 item_armor_shard
+1742106585.553121: Item: 2 weapon_rocketlauncher
+1742106588.902752: Item: 1 ammo_cells
+1742106593.802812: Item: 1 weapon_plasmagun
+1742106594.052868: Item: 3 item_armor_shard
+1742106595.253224: Item: 4 ammo_shells
+1742106595.452955: Item: 3 item_armor_shard
+1742106596.003193: Item: 3 weapon_shotgun
+1742106596.353075: Item: 1 weapon_grenadelauncher
+1742106599.902845: Item: 1 item_armor_shard
+1742106600.903383: Item: 1 item_health
+1742106601.202997: Item: 2 weapon_rocketlauncher
+1742106601.453090: Item: 1 item_armor_shard
+1742106601.553046: Item: 3 item_armor_body
+1742106602.502983: Kill: 1022 4 22: <world> killed Sarge by MOD_TRIGGER_HURT
+1742106605.053177: PlayerScore: 4 0: Sarge now has 0 points
+1742106605.053207: Item: 2 ammo_rockets
+1742106607.152941: Item: 4 ammo_rockets
+1742106607.353074: Item: 4 ammo_rockets
+1742106607.702772: Item: 1 weapon_plasmagun
+1742106608.002820: Item: 4 weapon_grenadelauncher
+1742106608.252912: Item: 1 ammo_cells
+1742106608.353006: Item: 4 item_armor_shard
+1742106613.702968: Item: 3 weapon_rocketlauncher
+1742106614.002484: Item: 4 item_armor_shard
+1742106614.152573: Item: 3 ammo_rockets
+1742106614.553206: Item: 3 ammo_rockets
+1742106614.853163: Item: 2 ammo_rockets
+1742106618.952869: Item: 1 item_armor_shard
+1742106620.352976: Item: 2 weapon_rocketlauncher
+1742106620.402922: Item: 1 ammo_shells
+1742106620.503042: Item: 1 item_armor_shard
+1742106620.752993: Item: 1 weapon_shotgun
+1742106621.452955: Item: 4 weapon_railgun
+1742106621.953097: Item: 1 item_armor_shard
+1742106622.953019: Item: 1 item_armor_shard
+1742106623.152843: Item: 4 item_armor_shard
+1742106623.153038: Item: 4 item_armor_shard
+1742106623.502857: Item: 3 item_armor_combat
+1742106625.053211: Item: 1 item_armor_shard
+1742106627.253195: Item: 1 item_armor_shard
+1742106627.702705: Item: 4 weapon_rocketlauncher
+1742106629.652994: Item: 2 item_quad
+1742106631.153066: Item: 1 item_armor_body
+1742106635.752924: Item: 3 item_armor_shard
+1742106638.702442: Item: 3 ammo_shells
+1742106639.053032: Item: 3 item_armor_shard
+1742106639.302985: Item: 3 weapon_shotgun
+1742106640.402840: Kill: 2 1 7: Arachna killed Angelyss by MOD_ROCKET_SPLASH
+1742106642.653823: PlayerScore: 2 1: Arachna now has 1 points
+1742106642.653854: broadcast: print "Timelimit hit.\n"
+1742106642.653871: Exit: Timelimit hit.
+1742106642.653887: Accuracy: 1 f0\0\h0\0\f1\0\h1\0\f2\2\h2\0\f3\0\h3\0\f4\2\h4\0\f5\3\h5\0\f6\0\h6\0\f7\0\h7\0\f8\72\h8\1\f9\0\h9\0\f10\0\h10\0\f11\0\h11\0\f12\0\h12\0\f13\0\h13\0
+1742106642.653913: Accuracy: 2 f0\0\h0\0\f1\0\h1\0\f2\0\h2\0\f3\0\h3\0\f4\0\h4\0\f5\29\h5\1\f6\0\h6\0\f7\10\h7\0\f8\20\h8\0\f9\0\h9\0\f10\0\h10\0\f11\0\h11\0\f12\0\h12\0\f13\0\h13\0
+1742106642.653929: Accuracy: 3 f0\0\h0\0\f1\0\h1\0\f2\22\h2\12\f3\0\h3\0\f4\0\h4\0\f5\25\h5\0\f6\0\h6\0\f7\10\h7\0\f8\0\h8\0\f9\0\h9\0\f10\0\h10\0\f11\0\h11\0\f12\0\h12\0\f13\0\h13\0
+1742106642.653943: Accuracy: 4 f0\0\h0\0\f1\0\h1\0\f2\0\h2\0\f3\3\h3\0\f4\11\h4\1\f5\9\h5\0\f6\0\h6\0\f7\4\h7\0\f8\134\h8\3\f9\0\h9\0\f10\0\h10\0\f11\0\h11\0\f12\0\h12\0\f13\0\h13\0
+1742106642.653958: score: 1  ping: 0  client: 2 Arachna
+1742106642.653972: score: 0  ping: 0  client: 1 Angelyss
+1742106642.653986: score: 0  ping: 0  client: 3 Major
+1742106642.654001: score: 0  ping: 0  client: 4 Sarge
+1742106642.654015: ==== ShutdownGame ====
+1742106658.702330: ShutdownGame:
+1742106658.702459: ------------------------------------------------------------
+1742106658.702547: AAS shutdown.
+1742106658.703333: ------ Server Initialization ------
+1742106658.704107: Server: aggressor
+1742106658.704163: Hunk_Clear: reset the hunk ok
+1742106658.707035: ----- FS_Startup -----
+1742106658.707064: We are looking in the current search path:
+1742106658.764530: /home/openarena/server.oa/baseoa
+1742106658.764579: /usr/lib/openarena-server/baseoa
+1742106658.764611: /usr/lib/openarena-server/baseoa/z_oacmp-volume1-v3.pk3 (370 files)
+1742106658.764644: /usr/lib/openarena-server/baseoa/pak6-patch088.pk3 (711 files)
+1742106658.764675: /usr/lib/openarena-server/baseoa/pak6-patch085.pk3 (559 files)
+1742106658.764704: /usr/lib/openarena-server/baseoa/pak6-misc.pk3 (229 files)
+1742106658.764733: /usr/lib/openarena-server/baseoa/pak5-TA.pk3 (139 files)
+1742106658.764761: /usr/lib/openarena-server/baseoa/pak4-textures.pk3 (1753 files)
+1742106658.764790: /usr/lib/openarena-server/baseoa/pak2-players.pk3 (669 files)
+1742106658.764818: /usr/lib/openarena-server/baseoa/pak2-players-mature.pk3 (231 files)
+1742106658.764847: /usr/lib/openarena-server/baseoa/pak1-maps.pk3 (100 files)
+1742106658.764874: /usr/lib/openarena-server/baseoa/pak0.pk3 (1042 files)
+1742106658.764903: 
+1742106658.764933: ----------------------
+1742106658.764963: 5803 files in pk3 files
+1742106658.764991: Loading vm file vm/qagame.qvm...
+1742106658.771694: File "vm/qagame.qvm" found in "/usr/lib/openarena-server/baseoa/pak6-patch088.pk3"
+1742106658.776295: ...which has vmMagic VM_MAGIC_VER2
+1742106658.776344: Loading 1658 jump table targets
+1742106658.776611: VM file qagame compiled to 1936982 bytes of code
+1742106658.806648: qagame loaded in 3957632 bytes on the hunk
+1742106658.806963: ------- Game Initialization -------
+1742106658.807226: gamename: baseoa
+1742106658.807263: gamedate: Nov 18 2024
+1742106658.807289: ------------------------------------------------------------
+1742106658.807600: InitGame: \com_protocol\71\g_lms_mode\0\elimination_roundtime\120\g_delagHitscan\0\g_voteMinFraglimit\0\g_voteMaxFraglimit\0\g_voteMinTimelimit\0\g_voteMaxTimelimit\1000\g_voteGametypes\/0/1/3/4/5/6/7/8/9/10/11/12/\g_allowVote\1\g_doWarmup\0\capturelimit\8\videoflags\7\g_maxGameClients\0\sv_maxclients\5\timelimit\3\fraglimit\0\dmflags\0\sv_hostname\NBN-UTS-Fortress OpenArena Server\sv_minRate\0\sv_maxRate\0\sv_dlRate\100\sv_minPing\0\sv_maxPing\0\sv_floodProtect\1\version\ioq3 1.36+u20241011.cc18246+dfsg-1/Debian linux-x86_64 Nov  5 2024\com_gamename\Quake3Arena\g_gametype\0\mapname\aggressor\sv_privateClients\0\sv_allowDownload\0\bot_minplayers\0\gamename\baseoa\elimflags\0\voteflags\767\g_needpass\0\g_obeliskRespawnDelay\10\g_enableFS\0\g_enableQ\0\g_enableDust\0\g_enableBreath\0\g_rockets\0\g_instantgib\0\g_altExcellent\0\g_timestamp\2025-03-16 17:30:58\bot_autominplayers\0
+1742106658.807827: Info: ServerInfo length: 879 of 1024
+1742106658.807866: ^3!readconfig: ^7could not open admin config file admin.dat
+1742106658.807895: Sprees/Kills: loaded 1 killing sprees, 0 death sprees, and 0 multikills.
+1742106658.810957: 0 teams with 0 entities
+1742106658.810967: 17 items registered
+1742106658.810973: -----------------------------------
+1742106658.810979: ------- BotLib Initialization -------
+1742106658.810984: loaded weapons.c
+1742106658.815013: loaded items.c
+1742106658.815039: loaded syn.c
+1742106658.816637: loaded rnd.c
+1742106658.822224: loaded match.c
+1742106658.827487: ------------ Map Loading ------------
+1742106658.827660: trying to load maps/aggressor.aas
+1742106658.828031: loaded maps/aggressor.aas
+1742106658.830321: found 29 level items
+1742106658.831822: -------------------------------------
+1742106658.831895: 33 bots parsed
+1742106658.836869: 71 arenas parsed
+1742106658.851920: File maps/aggressor.info not found
+1742106658.854181: Auther:
+1742106658.854230: Fraglimit: 0
+1742106658.854268: Capturelimit: 0
+1742106658.854302: minTeamSize: 0
+1742106658.854351: Looking for: mapscripts/g_aggressor.cfg
+1742106658.854424: Looking for: mapscripts/g_default.cfg
+1742106658.854522: Looking for: mapscripts/g_aggressor_0.cfg
+1742106658.854624: Looking for: mapscripts/g_default_0.cfg
+1742106658.854726: AAS initialized.
+1742106658.855137: Round 1 complete: changing network conditions.
+1742106658.855137: Latency map:  {'172.19.113.65': 200}
+1742106659.096736: loaded skill 1 from bots/default_c.c
+1742106659.096855: loaded skill 1 from bots/angelyss_c.c
+1742106659.096881: loaded bots/angelyss_i.c
+1742106659.096896: loaded bots/angelyss_w.c
+1742106659.096908: loaded angelyss from bots/angelyss_t.c
+1742106659.096920: ClientUserinfoChanged: 1 n\Angelyss\t\0\model\angelyss\hmodel\angelyss\c1\4\c2\5\hc\50\w\0\l\0\skill\1.00\tt\0\tl\0\id\
+1742106659.096935: ClientConnect: 1
+1742106659.096947: Info: There has been at least 1 bot now
+1742106659.096960: Playerstore: Failed to restore player. Invalid guid:
+1742106659.096972: broadcast: print "Angelyss^7 entered the game\n"
+1742106659.096984: ClientBegin: 1
+1742106659.096996: loaded cached skill 1.000000 from bots/default_c.c
+1742106659.097008: loaded skill 1 from bots/arachna_c.c
+1742106659.097020: loaded bots/arachna_i.c
+1742106659.097031: loaded bots/arachna_w.c
+1742106659.097042: loaded arachna from bots/arachna_t.c
+1742106659.097054: ClientUserinfoChanged: 2 n\Arachna\t\0\model\arachna\hmodel\arachna\c1\4\c2\5\hc\50\w\0\l\0\skill\1.00\tt\0\tl\0\id\
+1742106659.097066: ClientConnect: 2
+1742106659.097079: Playerstore: Failed to restore player. Invalid guid:
+1742106659.097090: broadcast: print "Arachna^7 entered the game\n"
+1742106659.097102: ClientBegin: 2
+1742106659.097114: loaded cached skill 1.000000 from bots/default_c.c
+1742106659.097125: loaded skill 1 from bots/major_c.c
+1742106659.097137: loaded bots/major_i.c
+1742106659.097148: loaded bots/major_w.c
+1742106659.097160: loaded Major from bots/major_t.c
+1742106659.097172: ClientUserinfoChanged: 3 n\Major\t\0\model\major\hmodel\major\c1\4\c2\5\hc\50\w\0\l\0\skill\1.00\tt\0\tl\0\id\
+1742106659.097184: ClientConnect: 3
+1742106659.097196: Playerstore: Failed to restore player. Invalid guid:
+1742106659.097207: broadcast: print "Major^7 entered the game\n"
+1742106659.097237: ClientBegin: 3
+1742106659.097250: loaded cached skill 1.000000 from bots/default_c.c
+1742106659.097262: loaded skill 1 from bots/sarge_c.c
+1742106659.097274: loaded bots/sarge_i.c
+1742106659.097285: loaded bots/sarge_w.c
+1742106659.097297: loaded sarge from bots/sarge_t.c
+1742106659.097309: ClientUserinfoChanged: 4 n\Sarge\t\0\model\sarge\hmodel\sarge\c1\4\c2\5\hc\50\w\0\l\0\skill\1.00\tt\0\tl\0\id\
+1742106659.097321: ClientConnect: 4
+1742106659.097333: Playerstore: Failed to restore player. Invalid guid:
+1742106659.097344: broadcast: print "Sarge^7 entered the game\n"
+1742106659.097356: ClientBegin: 4
+1742106659.097368: -----------------------------------
+1742106659.097380: Item: 3 weapon_shotgun
+1742106659.102777: Item: 2 ammo_cells
+1742106659.452834: Item: 2 weapon_railgun
+1742106659.652770: Item: 4 weapon_rocketlauncher
+1742106659.952900: Item: 1 ammo_rockets
+1742106661.452713: Item: 2 item_armor_combat
+1742106661.752782: Item: 4 ammo_bullets
+1742106663.102663: Item: 4 weapon_plasmagun
+1742106663.302739: Item: 3 weapon_grenadelauncher
+1742106665.102794: Item: 4 ammo_bullets
+1742106665.652806: Item: 3 ammo_rockets
+1742106665.902681: Item: 3 item_health
+1742106665.953119: Item: 4 ammo_cells
+1742106666.002725: Kill: 2 3 10: Arachna killed Major by MOD_RAILGUN
+1742106667.252973: PlayerScore: 2 1: Arachna now has 1 points
+1742106667.253001: Award: 2 2: Arachna gained the IMPRESSIVE award!
+1742106667.253017: Item: 2 weapon_shotgun
+1742106668.702462: Item: 4 ammo_shells
+1742106668.752903: Item: 4 item_armor_combat
+1742106669.802767: Item: 3 weapon_railgun
+1742106670.003987: Item: 1 item_health
+1742106671.402707: Item: 2 weapon_plasmagun
+1742106676.002756: Item: 3 weapon_rocketlauncher
+1742106677.202779: Item: 1 item_health_small
+1742106677.753465: Item: 1 item_health_small
+1742106677.802750: Item: 1 item_health_small
+1742106678.002612: Item: 4 weapon_railgun
+1742106679.102775: Item: 3 weapon_grenadelauncher
+1742106681.402759: Item: 2 item_armor_shard
+1742106681.952866: Item: 2 item_armor_shard
+1742106682.102750: Item: 1 weapon_lightning
+1742106682.202684: Item: 3 item_armor_shard
+1742106683.202693: Item: 3 item_armor_shard
+1742106683.202959: Item: 1 weapon_shotgun
+1742106684.853039: Item: 1 item_armor_combat
+1742106687.202742: Item: 2 weapon_grenadelauncher
+1742106692.352893: Item: 1 weapon_plasmagun
+1742106694.352887: Item: 2 weapon_railgun
+1742106697.952900: Item: 1 weapon_rocketlauncher
+1742106698.053195: Item: 4 weapon_lightning

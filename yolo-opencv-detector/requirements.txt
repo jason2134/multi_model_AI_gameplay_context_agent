@@ -1,0 +1,9 @@
+pywin32
+numpy
+Pillow
+opencv-python
+jupyter
+pynput
+psutil
+mss
+
