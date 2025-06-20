@@ -1,6 +1,4 @@
 # Computer Vision Data Extraction for Building AI Gameplay Context Agent
-AI gameplay context agent powered by OCR, Yolo, and LLM
-
 ## 🧩 Overview
 This industry project was conducted under the UTS ASTRID research team — a collaborative initiative between the University of Technology Sydney (UTS) and NBN that explores cutting-edge technologies in telecommunications, networking, robotics, and machine learning. Within this research unit, I contributed to the research and development of gaming technologies.
 
