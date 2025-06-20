@@ -1,7 +1,5 @@
 # Computer Vision Data Extraction for Building AI Gameplay Context Agent
 ## 🧩 Overview
-This industry project was conducted under the UTS ASTRID research team — a collaborative initiative between the University of Technology Sydney (UTS) and NBN that explores cutting-edge technologies in telecommunications, networking, robotics, and machine learning. Within this research unit, I contributed to the research and development of gaming technologies.
-
 The project focuses on developing an AI agent capable of analyzing gameplay footage and providing real-time, context-aware recommendations based on the current in-game scenario. To achieve this, I designed and implemented a robust data science pipeline that integrates computer vision techniques to extract player status and item information from visual inputs. This visual data is then combined with textual game logs to create a comprehensive understanding of gameplay dynamics.
 
 Key Machine Learning Techniques Involved:
